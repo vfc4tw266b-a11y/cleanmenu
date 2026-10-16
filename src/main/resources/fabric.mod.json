@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "cleanmenu",
+  "version": "${version}",
+  "name": "Clean Menu",
+  "description": "Modernes Dark-Mode-Menue im Stil von PvP-Clients: Kategorien, animierte Schalter, weiches Scrollen.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.cleanmenu.CleanMenuClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
